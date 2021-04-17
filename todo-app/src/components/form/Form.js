@@ -20,7 +20,6 @@ const Form = () => {
         e.preventDefault();
         const date = new Date();
         const dateNow = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
-        console.log(dateNow);
         if(description.trim() !== "" && deadline !== "") {
             if(validateDeadline(deadline)){
                 addTask(dateNow, description, deadline, notes);
@@ -42,9 +41,6 @@ const Form = () => {
         const dateNow = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
         const [yearT, monthT, dateT] = dateNow.split('-');
         const [yearD, monthD, dateD] = deadline.split('-');
-
-        console.log(dateNow + ":" + deadline );
-
         // Check Years
         if(parseInt(yearT) < parseInt(yearD)) return true;
         else {
