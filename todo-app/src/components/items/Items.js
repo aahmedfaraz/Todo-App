@@ -15,7 +15,7 @@ const Items = () => {
             </div>
             {
                 items.length === 0 &&
-                <p>No tasks todo ;)</p>
+                <p>No tasks todo :)</p>
             }
             {
                 items.length !== 0 &&

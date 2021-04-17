@@ -13,19 +13,19 @@ const GlobalState = props => {
                 description: 'Operating System Project',
                 addedAt: '2020-12-12',
                 deadline: '2021-04-05',
-                notes: ''
+                notes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
             },
             {
                 description: 'Database Management System Lab',
                 addedAt: '2020-2-12',
                 deadline: '2021-04-05',
-                notes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h'
+                notes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
             },
             {
                 description: 'Software Design and Architecture Quiz',
                 addedAt: '2020-12-1',
                 deadline: '2021-04-05',
-                notes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h'
+                notes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry'
             }
         ]
     }
